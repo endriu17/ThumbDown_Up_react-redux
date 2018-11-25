@@ -6,8 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducer from './reducer';
-// import {ADD_COMMENT} from './actions'
-import addComment from './actions'
+import {addComment} from './actions';
 
 const store = createStore(reducer);
 
