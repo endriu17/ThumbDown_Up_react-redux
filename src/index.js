@@ -20,5 +20,5 @@ ReactDOM.render(
 
 serviceWorker.unregister();
 
-store.dispatch(addComment('pierwszy komentarz'));
-store.dispatch(addComment('drugi komentarz'));
+store.dispatch(addComment('Pierwszy komentarz'));
+store.dispatch(addComment('Drugi komentarz'));

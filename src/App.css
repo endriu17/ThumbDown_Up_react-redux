@@ -1,18 +1,32 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .Lista {
   list-style-type: none;
+  margin-right: 25%;
+  text-align: right;
+}
+
+Li {
+  margin: 10px 0;
   font-size: 20px;
 }
 
 .Button {
   border: none;
   height: 20px;
-  width: 150px;
-  background-color: aquamarine;
+  width: 100px;
+  background-color: rgb(80, 139, 24);
+  margin: 0 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.Votes {
   margin-left: 20px;
+  color: blue;
+  font-size: 18px;
 }
 
 .Count {
