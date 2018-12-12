@@ -10,20 +10,21 @@ export default function comments(state = [], action) {
             return [{
                 id: action.id,
                 text: action.text,
-                votes: 0
+                votesUp: 0,
+                votesDown: 0
             }
             , ...state];
         case THUMB_UP_COMMENT:
             return state.map(comment => {
                 if(comment.id === action.id) {
-                return {...comment, votes: comment.votes + 1}
+                return {...comment, votesUp: comment.votesUp + 1}
                 }
             return comment;
             });
         case THUMB_DOWN_COMMENT:
             return state.map(comment => {
                 if(comment.id === action.id) {
-                return {...comment, votes: comment.votes - 1}
+                return {...comment, votesDown: comment.votesDown - 1}
                 }
             return comment;
             });
