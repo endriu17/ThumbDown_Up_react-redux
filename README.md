@@ -1,3 +1,8 @@
+## React, redux
+Thumb-up, thumb-down vote system...
+
+## [Preview](https://ecstatic-chandrasekhar-1423bb.netlify.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
